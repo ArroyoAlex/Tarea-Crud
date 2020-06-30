@@ -20,7 +20,7 @@ public class Preg005 {
         System.out.print("Valor de B: ");
         b = teclado.nextInt();
         teclado.close();
-        if (a<b){
+        if (a>b){
             temp = a;
             a = b;
             b = temp;
